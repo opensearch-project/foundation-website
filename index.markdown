@@ -59,7 +59,7 @@ The OpenSearch Software Foundation offers three levels of membership:
 
 If your organization is interested in supporting the OpenSearch community, please consider [joining the OpenSearch Foundation which you can do here](https://enrollment.lfx.linuxfoundation.org/?project=opensearch-foundation).
 
-The OpenSearch Software Foundation is not involved in technical oversight of the OpenSearch open source project.  For technical governance of the open source project, please see the project’s technical charter here.
+The OpenSearch Software Foundation is not involved in technical oversight of the OpenSearch open source project.  For technical governance of the open source project, please see the project’s technical charter [here](/assets/media/OpenSearch Project Technical Charter Final 9-13-2024.docx.pdf).
 
 #### Premiere Members
 
