@@ -1,15 +1,8 @@
-## My Project
+## The OpenSearch Software Foundation
 
-TODO: Fill this README out!
+The OpenSearch Software Foundation is a project of The Linux Foundation organized to support the OpenSearch open source project.  The mission of the OpenSearch Software Foundation is to provide infrastructure and other resources to enable the long-term sustainability of the OpenSearch open source project and the OpenSearch ecosystem.  You can read the launch announcement [here](https://www.linuxfoundation.org/press/linux-foundation-announces-opensearch-software-foundation-to-foster-open-collaboration-in-search-and-analytics).
 
-Be sure to:
-
-* Change the title in this README
-* Edit your repository description on GitHub
-
-## Security
-
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+A Governing Board (which includes representatives of the OpenSearch Software Foundation’s members and the chair of the technical steering committee of the OpenSearch open source project) oversees the OpenSearch Software Foundation and administers its budget.
 
 ## License
 
