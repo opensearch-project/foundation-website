@@ -6,10 +6,10 @@ layout: home
 
 members: 
   - name: Amazon
-    level: premiere
+    level: premier
     logo: /assets/media/members/amazon-web-services-inc.svg
   - name: Uber
-    level: premiere
+    level: premier
     logo: /assets/media/members/uber-technologies-inc.svg
   - name: Aiven
     level: general
@@ -36,7 +36,7 @@ members:
     level: general
     logo: /assets/media/members/digitalocean.svg
   - name: SAP
-    level : premiere
+    level : premier
     logo: /assets/media/members/sap.svg
   - name: Atlassian
     logo: /assets/media/members/atlassian-inc.svg
@@ -61,10 +61,10 @@ If your organization is interested in supporting the OpenSearch community, pleas
 
 The OpenSearch Software Foundation is not involved in technical oversight of the OpenSearch open source project.  For technical governance of the open source project, please see the project’s technical charter [here](/assets/media/OpenSearch Project Technical Charter Final 9-13-2024.docx.pdf).
 
-#### Premiere Members
+#### Premier Members
 
 <div class="container rounded shadow p-3 m-3">
-{% assign members = page.members | where: "level", "premiere" %}
+{% assign members = page.members | where: "level", "premier" %}
 
 <div class="container">
 <div class="row">
