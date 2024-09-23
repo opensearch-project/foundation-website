@@ -41,6 +41,9 @@ members:
   - name: Atlassian
     logo: /assets/media/members/atlassian-inc.svg
     level: general
+  - name: DataStax
+    logo: /assets/media/members/datastax.svg
+    level: general
     
     
     
