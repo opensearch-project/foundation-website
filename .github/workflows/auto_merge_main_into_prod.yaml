@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
-        run : gh repo clone opensearch-project/foundation-website
+        run : gh repo clone opensearch-project/foundation-website ./
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create PR
