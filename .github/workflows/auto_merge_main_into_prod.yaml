@@ -1,5 +1,5 @@
 name: Auto merge main to prod when a PR is merged to main
-run-name: Create PR to update prod with main.
+run-name: Create PR to update prod with main
 on:
   pull_request:
     types:
