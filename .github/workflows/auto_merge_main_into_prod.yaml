@@ -12,3 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: gh pr create -H main -B prod
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.html_url }}
