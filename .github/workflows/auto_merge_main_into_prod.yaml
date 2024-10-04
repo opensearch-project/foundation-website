@@ -11,7 +11,10 @@ jobs:
     if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
     steps:
-      - run: gh pr create -H main -B prod --title "[prod] Push to production." --body "Creating a PR to update production too."
+      - name: Check out the repo
+        run : gh repo clone opensearch-project/foundation-website
+      - name: Create PR
+        run: gh pr create -H main -B prod --title "[prod] Push to production." --body "Creating a PR to update production too."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.html_url }}
