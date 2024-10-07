@@ -18,7 +18,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create PR
-        run: gh pr create -H main -B prod --title "[prod] Push to production." --body "Creating a PR to update production too."
+        run: gh pr create -H main -B prod --title "[prod] Push to production." --body "Creating a PR to update production too." -R nateynateynate/foundation-website
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE: ${{ github.event.issue.html_url }}
