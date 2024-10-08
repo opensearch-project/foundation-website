@@ -1,0 +1,24 @@
+name: Create a pull request to sync prod with main.
+run-name: Create a pull request to sync prod with main.
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+jobs:
+  make_pr_job:
+    permissions:
+      pull-requests: write
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        run : gh repo clone opensearch-project/foundation-website ./
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create PR
+        run: gh pr create -H main -B prod --title "[prod] Push to production." --body "Autocut PR to merge with prod." -R opensearch-project/foundation-website
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE: ${{ github.event.issue.html_url }}
