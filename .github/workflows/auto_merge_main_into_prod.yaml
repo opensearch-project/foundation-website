@@ -1,5 +1,5 @@
 name: Create a pull request to sync prod with main.
-run-name: Create a pull request to sync prod with main.
+run-name: Create a pull request to sync prod with main. Will it update the existing pr??
 on:
   pull_request:
     types:
