@@ -44,6 +44,9 @@ members:
   - name: DataStax
     logo: /assets/media/members/datastax.svg
     level: general
+  - name: DTEX
+    logo: /assets/media/members/dtex.png
+    level: general
     
     
     
