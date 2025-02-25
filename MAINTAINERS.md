@@ -7,8 +7,8 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 
 ## Current Maintainers
 
-| Maintainer           | GitHub ID                                           | Affiliation |
-|----------------------|-----------------------------------------------------|-------------|
-| Nate Boot            | [nateynateynate](https://github.com/nateynateynate) | Amazon      |
-| Kris Freedain        | [krisfreedain](https://github.com/krisfreedain)     | Amazon      |
-| Daniel Doubrovkine   | [dblock](https://github.com/dblock)                 | Amazon      |
+| Maintainer         | GitHub ID                                           | Affiliation |
+| ------------------ | --------------------------------------------------- | ----------- |
+| Nate Boot          | [nateynateynate](https://github.com/nateynateynate) | Amazon      |
+| Kris Freedain      | [krisfreedain](https://github.com/krisfreedain)     | Amazon      |
+| Daniel Doubrovkine | [dblock](https://github.com/dblock)                 | Independent |
