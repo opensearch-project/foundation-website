@@ -1,5 +1,6 @@
 - [Overview](#overview)
 - [Current Maintainers](#current-maintainers)
+- [Emeritus Maintainers](#emeritus-maintainers)
 
 ## Overview
 
@@ -7,8 +8,13 @@ This document contains a list of maintainers in this repo. See [opensearch-proje
 
 ## Current Maintainers
 
-| Maintainer         | GitHub ID                                           | Affiliation |
-| ------------------ | --------------------------------------------------- | ----------- |
-| Nate Boot          | [nateynateynate](https://github.com/nateynateynate) | Amazon      |
-| Kris Freedain      | [krisfreedain](https://github.com/krisfreedain)     | Amazon      |
-| Daniel Doubrovkine | [dblock](https://github.com/dblock)                 | Independent |
+| Maintainer    | GitHub ID                                           | Affiliation |
+| ------------- | --------------------------------------------------- | ----------- |
+| Nate Boot     | [nateynateynate](https://github.com/nateynateynate) | Amazon      |
+| Kris Freedain | [krisfreedain](https://github.com/krisfreedain)     | Amazon      |
+
+## Emeritus Maintainers
+
+| Maintainer         | GitHub ID                               | Affiliation |
+| ------------------ | --------------------------------------- | ----------- |
+| Daniel Doubrovkine | [dblock](https://github.com/dblock)     | Independent |
